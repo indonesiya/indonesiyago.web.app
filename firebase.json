@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site":"indonesiyago",
+    "public": "public",
+    "appAssociation": "AUTO",
+    "rewrites": [
+      {
+        "source": "/p/**",
+        "dynamicLinks": true
+      }
+    ]
+  }
+}
